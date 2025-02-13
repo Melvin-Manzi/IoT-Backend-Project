@@ -1,7 +1,7 @@
 <?php
 class DatabaseManager {
     private $db_file = "database.sqlite"; // Path to SQLite database file
-    protected $con; // Make $con protected to allow access in child classes
+    protected $con; 
     public function __construct() {
         try {
             // Connecting to the SQLite database
